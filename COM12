@@ -1,0 +1,12 @@
+use "/home/me/2012com.dta"
+list id
+egen g = rowtotal (joly melenchon poutou arthaud hollande)
+egen d = rowtotal (sarkozy bayrou nda)
+egen fn = rowtotal (lepen cheminade)
+gen gexp = ( g / exprims ) * 100
+gen dexp = ( d / exprims ) * 100
+gen fnexp = ( fn / exprims ) * 100
+gen gins = ( g / inscrits ) * 100
+gen dins = ( d / inscrits ) * 100
+gen fnins = ( fn / inscrits ) * 100
+save "/home/me/2012com.dta", replace
