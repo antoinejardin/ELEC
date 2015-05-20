@@ -1,0 +1,298 @@
+use "/home/me/DYN/V1V2V3V4V5V6V7.dta"
+clear
+use "/home/me/2014com.dta"
+tab n31
+gen g1 = voix if nuanceliste ==1
+gen g1 = voix if nuanceliste = 1
+gen g1 = .
+replace g1 = voix if n1 == 1 
+tab n31
+replace g2 = var22 if n2 == 1
+replace g3 = var27 if n3 == 1 
+replace g4 = var32 if n4 == 1 
+replace g5 = var37 if n5 == 1 
+replace g6 = var42 if n6 == 1 
+replace g7 = var47 if n7 == 1 
+replace g8 = var52 if n8 == 1 
+replace g9 = var57 if n9 == 1 
+replace g10 = var62 if n10 == 1 
+replace g11 = var67 if n11 == 1 
+replace g12 = var72 if n12 == 1 
+replace g13 = var77 if n13 == 1 
+replace g14 = var82 if n14 == 1 
+replace g15 = var87 if n15 == 1 
+replace g16 = var92 if n16 == 1 
+replace g17 = var97 if n17 == 1 
+replace g18 = var102 if n18 == 1 
+replace g19 = var107 if n19 == 1 
+replace g20 = var112 if n20 == 1 
+replace g21 = var117 if n21 == 1 
+replace g22 = var122 if n22 == 1 
+replace g23 = var127 if n23 == 1 
+replace g24 = var132 if n24 == 1 
+replace g25 = var137 if n25 == 1 
+replace g26 = var142 if n26 == 1 
+replace g27 = var147 if n27 == 1 
+replace g28 = var152 if n28 == 1 
+replace g29 = var157 if n29 == 1 
+replace g30 = var162 if n30 == 1 
+replace g30 = var167 if n30 == 1 
+gen2 = .
+gen3 = .
+gen4 = .
+gen5 = .
+gen6 = .
+gen7 = .
+gen8 = .
+gen9 = .
+gen10 = .
+gen11 = .
+gen12 = .
+gen13 = .
+gen14 = .
+gen15 = .
+gen16 = .
+gen17 = .
+gen18 = .
+gen19 = .
+gen20 = .
+gen21 = .
+gen22 = .
+gen23 = .
+gen24 = .
+gen25 = .
+gen26 = .
+gen27 = .
+gen28 = .
+gen29 = .
+gen30 = .
+gen31 = .
+gen32 = .
+replace g2 = var22 if n2 == 1
+replace g3 = var27 if n3 == 1 
+replace g4 = var32 if n4 == 1 
+replace g5 = var37 if n5 == 1 
+replace g6 = var42 if n6 == 1 
+replace g7 = var47 if n7 == 1 
+replace g8 = var52 if n8 == 1 
+replace g9 = var57 if n9 == 1 
+replace g10 = var62 if n10 == 1 
+replace g11 = var67 if n11 == 1 
+replace g12 = var72 if n12 == 1 
+replace g13 = var77 if n13 == 1 
+replace g14 = var82 if n14 == 1 
+replace g15 = var87 if n15 == 1 
+replace g16 = var92 if n16 == 1 
+replace g17 = var97 if n17 == 1 
+replace g18 = var102 if n18 == 1 
+replace g19 = var107 if n19 == 1 
+replace g20 = var112 if n20 == 1 
+replace g21 = var117 if n21 == 1 
+replace g22 = var122 if n22 == 1 
+replace g23 = var127 if n23 == 1 
+replace g24 = var132 if n24 == 1 
+replace g25 = var137 if n25 == 1 
+replace g26 = var142 if n26 == 1 
+replace g27 = var147 if n27 == 1 
+replace g28 = var152 if n28 == 1 
+replace g29 = var157 if n29 == 1 
+replace g30 = var162 if n30 == 1 
+replace g30 = var167 if n30 == 1 
+gen g2 = .
+gen g3 = .
+gen g4 = .
+gen g5 = .
+gen g6 = .
+gen g7 = .
+gen g8 = .
+gen g9 = .
+gen g10 = .
+gen g11 = .
+gen g12 = .
+gen g13 = .
+gen g14 = .
+gen g15 = .
+gen g16 = .
+gen g17 = .
+gen g18 = .
+gen g19 = .
+gen g20 = .
+gen g21 = .
+gen g22 = .
+gen g23 = .
+gen g24 = .
+gen g25 = .
+gen g26 = .
+gen g27 = .
+gen g28 = .
+gen g29 = .
+gen g30 = .
+gen g31 = .
+gen g32 = .
+replace g2 = var22 if n2 == 1
+replace g3 = var27 if n3 == 1 
+replace g4 = var32 if n4 == 1 
+replace g5 = var37 if n5 == 1 
+replace g6 = var42 if n6 == 1 
+replace g7 = var47 if n7 == 1 
+replace g8 = var52 if n8 == 1 
+replace g9 = var57 if n9 == 1 
+replace g10 = var62 if n10 == 1 
+replace g11 = var67 if n11 == 1 
+replace g12 = var72 if n12 == 1 
+replace g13 = var77 if n13 == 1 
+replace g14 = var82 if n14 == 1 
+replace g15 = var87 if n15 == 1 
+replace g16 = var92 if n16 == 1 
+replace g17 = var97 if n17 == 1 
+replace g18 = var102 if n18 == 1 
+replace g19 = var107 if n19 == 1 
+replace g20 = var112 if n20 == 1 
+replace g21 = var117 if n21 == 1 
+replace g22 = var122 if n22 == 1 
+replace g23 = var127 if n23 == 1 
+replace g24 = var132 if n24 == 1 
+replace g25 = var137 if n25 == 1 
+replace g26 = var142 if n26 == 1 
+replace g27 = var147 if n27 == 1 
+replace g28 = var152 if n28 == 1 
+replace g29 = var157 if n29 == 1 
+replace g30 = var162 if n30 == 1 
+replace g30 = var167 if n30 == 1 
+gen d2 = .
+gen d3 = .
+gen d4 = .
+gen d5 = .
+gen d6 = .
+gen d7 = .
+gen d8 = .
+gen d9 = .
+gen d10 = .
+gen d11 = .
+gen d12 = .
+gen d13 = .
+gen d14 = .
+gen d15 = .
+gen d16 = .
+gen d17 = .
+gen d18 = .
+gen d19 = .
+gen d20 = .
+gen d21 = .
+gen d22 = .
+gen d23 = .
+gen d24 = .
+gen d25 = .
+gen d26 = .
+gen d27 = .
+gen d28 = .
+gen d29 = .
+gen d30 = .
+gen d31 = .
+gen d32 = .
+replace d2 = var22 if n2 == 2
+replace d3 = var27 if n3 == 2 
+replace d4 = var32 if n4 == 2
+replace d5 = var37 if n5 == 2 
+replace d6 = var42 if n6 == 2 
+replace d7 = var47 if n7 == 2 
+replace d8 = var52 if n8 == 2 
+replace d9 = var57 if n9 == 2 
+replace d10 = var62 if n10 == 2 
+replace d11 = var67 if n11 == 2 
+replace d12 = var72 if n12 == 2 
+replace d13 = var77 if n13 == 2 
+replace d14 = var82 if n14 == 2 
+replace d15 = var87 if n15 == 2 
+replace d16 = var92 if n16 == 2 
+replace d17 = var97 if n17 == 2 
+replace d18 = var102 if n18 == 2 
+replace d19 = var107 if n19 == 2 
+replace d20 = var112 if n20 == 2 
+replace d21 = var117 if n21 == 2 
+replace d22 = var122 if n22 == 2 
+replace d23 = var127 if n23 == 2 
+replace d24 = var132 if n24 == 2 
+replace d25 = var137 if n25 == 2 
+replace d26 = var142 if n26 == 2 
+replace d27 = var147 if n27 == 2 
+replace d28 = var152 if n28 == 2 
+replace d29 = var157 if n29 == 2 
+replace d30 = var162 if n30 == 2 
+replace d30 = var167 if n30 == 2 
+gen fn2 = .
+gen fn3 = .
+gen fn4 = .
+gen fn5 = .
+gen fn6 = .
+gen fn7 = .
+gen fn8 = .
+gen fn9 = .
+gen fn10 = .
+gen fn11 = .
+gen fn12 = .
+gen fn13 = .
+gen fn14 = .
+gen fn15 = .
+gen fn16 = .
+gen fn17 = .
+gen fn18 = .
+gen fn19 = .
+gen fn20 = .
+gen fn21 = .
+gen fn22 = .
+gen fn23 = .
+gen fn24 = .
+gen fn25 = .
+gen fn26 = .
+gen fn27 = .
+gen fn28 = .
+gen fn29 = .
+gen fn30 = .
+gen fn31 = .
+gen fn32 = .
+replace fn2 = var22 if n2 == 3
+replace fn3 = var27 if n3 == 3 
+replace fn4 = var32 if n4 == 3
+replace fn5 = var37 if n5 == 3 
+replace fn6 = var42 if n6 == 3 
+replace fn7 = var47 if n7 == 3 
+replace fn8 = var52 if n8 == 3 
+replace fn9 = var57 if n9 == 3 
+replace fn10 = var62 if n10 == 3 
+replace fn11 = var67 if n11 == 3 
+replace fn12 = var72 if n12 == 3 
+replace fn13 = var77 if n13 == 3 
+replace fn14 = var82 if n14 == 3 
+replace fn15 = var87 if n15 == 3 
+replace fn16 = var92 if n16 == 3 
+replace fn17 = var97 if n17 == 3 
+replace fn18 = var102 if n18 == 3 
+replace fn19 = var107 if n19 == 3 
+replace fn20 = var112 if n20 == 3 
+replace fn21 = var117 if n21 == 3 
+replace fn22 = var122 if n22 == 3 
+replace fn23 = var127 if n23 == 3 
+replace fn24 = var132 if n24 == 3 
+replace fn25 = var137 if n25 == 3 
+replace fn26 = var142 if n26 == 3 
+replace fn27 = var147 if n27 == 3 
+replace fn28 = var152 if n28 == 3 
+replace fn29 = var157 if n29 == 3 
+replace fn30 = var162 if n30 == 3 
+replace fn30 = var167 if n30 == 3 
+browse
+help egen
+egen vg = rowtotal (g1-g32)
+egen vd = rowtotal (d1-d32)
+egen vd = rowtotal (d2-d32)
+egen vfn = rowtotal (fn2-fn32)
+gen vo = exprims - ( vg + vd + vfn)
+list vg vd vfn vo
+gen gexp = ( vg / exprims ) * 100
+gen dexp = ( vd / exprims ) * 100
+gen fnexp = ( vfn / exprims ) * 100
+gen gins= ( vg / inscrits ) * 100
+gen dins = ( vd / inscrits ) * 100
+gen fnins = ( vfn / inscrits ) * 100
+save "/home/me/2014com.dta", replace
